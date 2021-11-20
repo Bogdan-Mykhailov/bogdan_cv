@@ -1,0 +1,27 @@
+.knowledge {
+    height: 250px;
+    padding: 30px;
+    background: #BFBFBF;
+    &__title {
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #2C4459;
+        text-align: center;
+    }
+    &__items {
+        padding: 40px;
+        height: 100px;
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items_icon i {
+        color: #1A3140;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+        
+}

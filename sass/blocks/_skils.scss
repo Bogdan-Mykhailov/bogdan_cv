@@ -1,0 +1,60 @@
+.skils {
+    height: 500px;
+    padding: 0px;
+    background: #BF8173;
+    &__knowledge {
+        height: 200px;
+        width: 700px;
+        background:#F2F2F2;
+        margin: 0 auto;
+        padding: 30px;
+        
+    }
+    &__knowledge_text {
+        font-size: 15px;
+        line-height: 35px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #2C4459;
+        text-align: center;
+    }
+    &__education {
+        height: 220px;
+        width: 600px;
+        margin: 0 auto;
+        h3 {
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #2C4459;
+            text-align: center;
+        }
+        h2 {
+            margin-top: 40px;
+            font-size: 35px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #1A3140;
+            text-align: center;
+        }
+        h4 {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: #2C4459;
+            text-align: center;
+            
+        }
+        
+    }
+    &__divider {
+        width: 300px;
+        height: 3px;
+        margin: 0 auto;
+        background: #BFBFBF;
+        margin-top: 15px;
+    }
+   
+}
