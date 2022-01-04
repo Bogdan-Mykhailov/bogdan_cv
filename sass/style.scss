@@ -1,18 +1,15 @@
-
-
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+  font-family: "Museo Sans Cyrl", sans-serif;
 }
 
 .container {
-    position: relative;
-    max-width: 950px;
-    margin: 0 auto;
+  position: relative;
+  max-width: 950px;
+  margin: 0 auto;
 }
 
-@import 'blocks/promo';
-@import 'blocks/about';
-@import 'blocks/skils';
-@import 'blocks/knowledge';
-@import 'blocks/contacts';
-
+// @import 'blocks/promo';
+@import "blocks/about";
+@import "blocks/skils";
+@import "blocks/knowledge";
+@import "blocks/contacts";
